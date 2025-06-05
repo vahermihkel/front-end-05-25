@@ -26,6 +26,10 @@ function Menu() {
       <Link to="/seaded">
         <button>Seaded</button>
       </Link>
+
+      <Link to="/kalkulaator">
+        <button>Kalkulaator</button>
+      </Link>
     </div>
   )
 }
