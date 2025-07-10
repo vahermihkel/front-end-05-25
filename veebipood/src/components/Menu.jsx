@@ -1,37 +1,32 @@
-import { Link } from "react-router-dom"
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 
 function Menu() {
   return (
-    <div>
-      <Link to="/">
-        <img className="pilt" src="https://i0.wp.com/accelerista.com/wp-content/uploads/2018/06/nobe.jpg" alt="" />
-      </Link>
-
-      <Link to="/ostukorv">
-        <button>Ostukorvi</button>
-      </Link>
-
-      <Link to="/lisa-toode">
-        <button>Lisa toode</button>
-      </Link>
-
-      <Link to="/osta-kinkekaart">
-        <button>Kinkekaardid</button>
-      </Link>
-
-      <Link to="/esindused">
-        <button>Esindused</button>
-      </Link>
-
-      <Link to="/seaded">
-        <button>Seaded</button>
-      </Link>
-
-      <Link to="/kalkulaator">
-        <button>Kalkulaator</button>
-      </Link>
-    </div>
-  )
+    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand as={Link} to="/">Mihkli veebipood</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link as={Link} to="/ostukorv">Ostukorv</Nav.Link>
+            <Nav.Link as={Link} to="/arrays-home">Arrays</Nav.Link>
+            <Nav.Link as={Link} to="/halda-home">Halda</Nav.Link>
+            <Nav.Link as={Link} to="/osta-kinkekaart">Kinkekaart</Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link as={Link} to="/seaded">Seaded</Nav.Link>
+            <Nav.Link as={Link} to="/kalkulaator">Kalkulaator</Nav.Link>
+            <Nav.Link as={Link} to="/lisa-toode">Lisa toode</Nav.Link>
+            <Nav.Link as={Link} to="/email">Saada email</Nav.Link>
+            <Nav.Link as={Link} to="/api-home">API</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
 
-export default Menu
+export default Menu;

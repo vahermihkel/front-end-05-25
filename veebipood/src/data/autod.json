@@ -1,0 +1,11 @@
+[
+  {"nimi": "Ferrari", "hind": 105000, "aktiivne": false, "pilt": "https://carwow-uk-wp-1.imgix.net/2025-Ferrari-F80-front-static-lead.png"},
+  {"nimi": "BMW", "hind": 45000, "aktiivne": true, "pilt": "https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m4-cs-flyout.png"},
+  {"nimi": "Nobe", "hind": 60000, "aktiivne": true, "pilt": "https://i0.wp.com/accelerista.com/wp-content/uploads/2018/06/nobe.jpg"},
+  {"nimi": "Lamborghini", "hind": 205000, "aktiivne": false, "pilt": "https://static-img.aripaev.ee/?type=preview&uuid=0885d4f7-7278-5763-9a11-eaf797746194&width=3840&q=70"},
+  {"nimi": "Mercedes", "hind": 95000, "aktiivne": true, "pilt": "https://www.animeoutline.com/wp-content/uploads/2024/04/sports_car_drawing_body_coloring.png"},
+  {"nimi": "Audi", "hind": 65000, "aktiivne": true, "pilt": "https://www.animeoutline.com/wp-content/uploads/2024/04/sports_car_drawing_body_coloring.png"},
+  {"nimi": "Tesla", "hind": 85000, "aktiivne": true, "pilt": "https://www.animeoutline.com/wp-content/uploads/2024/04/sports_car_drawing_body_coloring.png"},
+  {"nimi": "Ford", "hind": 50000, "aktiivne": true, "pilt": "https://www.animeoutline.com/wp-content/uploads/2024/04/sports_car_drawing_body_coloring.png"},
+  {"nimi": "Toyota", "hind": 60000, "aktiivne": true, "pilt": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB6miXIWsDE2qLGNpkoECoG_woSsITke60jg&s"}
+]

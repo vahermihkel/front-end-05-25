@@ -4,7 +4,7 @@ import MaksimaalneKalkulaator from "../components/MaksimaalneKalkulaator"
 import TavaKalkulaator from "../components/TavaKalkulaator"
 
 function Kalkulaator() {
-  const [vaade, setVaade] = useState("tava");
+  const [vaade, setVaade] = useState("laenu");
 
   return (
     <div>
