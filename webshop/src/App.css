@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px; 
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+th {
+  background-color: aliceblue;
+}
+
+tr {
+  border: 2px solid rgb(57, 71, 134);
+}
+
+body {
+  background-color: white;
+  margin: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+} 
+
+.grid-item-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 30px;
+  border: 2px solid lightgrey;
+  margin: 10px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+.icon:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.icon:active {
+  transform: scale(95%);
+}
